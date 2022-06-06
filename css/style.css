@@ -1,0 +1,85 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+}
+.wrapper {
+    max-height: 100%;
+}
+input {
+    width: 45px;
+    height: 50px;
+    font-size: 45px;
+    padding-left: 22px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+input:focus{
+    outline: 3px solid purple;
+    background-color: rgb(202, 181, 233);
+}
+
+.title {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    letter-spacing: 5px;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+table {
+    margin: 0 auto;
+}
+
+.btn{
+    width: 140px;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: auto;
+    border-radius: 5px;
+    background-color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color:  rgb(69, 69, 69);
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    border: 2px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+.btn-check{
+    border: 2px solid rgb(12, 193, 12);
+    color:rgb(12, 193, 12);
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.right {
+    background-color: green;
+}
+
+.wrong {
+    background-color: yellow;
+}
+
+.empty {
+    background-color: black;
+}
